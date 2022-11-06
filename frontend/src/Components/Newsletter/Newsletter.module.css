@@ -1,0 +1,62 @@
+.newsletter {
+  display: block;
+  background-color: var(--clr-gray);
+  padding: 5rem 0;
+  margin-top: 5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+}
+
+.container > div {
+  flex: 1;
+}
+
+.newsletter__body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.newsletter__small_heading {
+  font-weight: var(--fw-sub-heading);
+  font-size: 2.2rem;
+  color: var(--clr-secondry);
+}
+
+.newsletter__heading {
+  font-size: 4rem;
+  margin: 1rem 0 0 0;
+  font-weight: var(--fw-heading);
+}
+
+.form__group {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.newsletter_controller {
+  border: 0.1rem solid var(--clr-secondry);
+  outline: none;
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--clr-dark);
+  flex: 1;
+}
+
+.btn-newsletter {
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-secondry);
+  padding: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+}

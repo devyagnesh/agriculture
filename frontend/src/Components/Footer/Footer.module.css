@@ -1,0 +1,105 @@
+.footer {
+  position: relative;
+  display: block;
+  padding: 5rem 0;
+  min-height: 60vh;
+  background: url("../../assets/Images/about2.jpg") no-repeat bottom;
+  background-size: cover;
+  z-index: 1;
+}
+
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(24, 30, 20, 0.9);
+  z-index: -1;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  color: white;
+  border-bottom: 0.1rem solid var(--clr-white);
+}
+
+.links__card_heading {
+  font-weight: var(--fw-heading);
+  color: var(--clr-secondry);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+}
+
+.card__links {
+  margin: 2rem 0 0 0;
+  list-style: none;
+}
+
+.card__links_item {
+  margin: 2rem 0;
+}
+.link_item_link {
+  text-decoration: none;
+  color: var(--clr-white);
+  font-size: 2rem;
+}
+
+.addrs {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.icons {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.footer_consult {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.consult_body {
+  font-size: 1.6rem;
+}
+
+.footer__contact_btn {
+  text-decoration: none;
+  color: var(--clr-white);
+  background-color: var(--clr-secondry);
+  padding: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  border-radius: 1rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.no-border {
+  border: none;
+}
+
+.footer_bottom {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.who_developed {
+  text-align: center;
+  font-size: 1.8rem;
+  color: var(--clr-white);
+}
+
+.copyright_text {
+  text-align: right;
+  font-size: 1.8rem;
+  color: var(--clr-white);
+}
